@@ -1,0 +1,189 @@
+@import url("http://fonts.cdnfonts.com/css/poppins?styles=20394,20397,20387,20390,20392,20395,20383,20385,20381");
+
+/* hide number arrow for Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* hide number arrow for Firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+.app {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  background-image: linear-gradient(
+    60deg,
+    #ae70ff 60%,
+
+    #2514db 100%
+  );
+}
+
+.main-container {
+  padding-left: 8%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-around;
+  flex: 3;
+  background-color: white;
+  height: 100%;
+  border-radius: 0px 10vw 10vw 0px / 0px 35vh 35vh 0px;
+}
+
+.space-container {
+  display: flex;
+  flex: 1;
+  height: 100%;
+}
+
+.title-container {
+  font-family: Poppins;
+  font-weight: bold;
+  font-size: 43pt;
+}
+
+.calculator-title-container {
+  font-family: Poppins;
+  font-weight: bolder;
+  font-size: 85pt;
+  width: 70%;
+}
+
+.calculator-inputs-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+/* Order Date Picker */
+.order-date-picker {
+  margin-right: 5%;
+}
+
+.order-date-picker span {
+  font-family: Poppins;
+  font-weight: 500;
+  font-size: 27pt;
+  color: #8d9092;
+}
+
+.order-date-picker i {
+  font-size: 25px;
+  padding-right: 20px;
+}
+
+.order-date-picker .ms-TextField-fieldGroup {
+  width: 300px;
+  height: 60px;
+  align-items: center;
+  padding: 17px;
+  border: 1px solid #2514db;
+  border-radius: 50px;
+}
+
+.order-date-picker .ms-TextField-field {
+  font-size: 27pt;
+  color: gray;
+}
+/* Order Date Picker */
+
+/* Fabric Type Dropdown */
+
+.fabric-type-dropdown {
+  margin-right: 5%;
+}
+
+.ms-Dropdown span {
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.ms-Dropdown {
+  min-width: 350px;
+  height: 60px;
+  border-radius: 50px;
+  /* padding: 17px; */
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  border: 1px solid #2514db;
+}
+
+.ms-Dropdown::after {
+  border: none !important;
+}
+
+.ms-Dropdown i {
+  font-size: 23px;
+  padding-right: 13px;
+}
+
+.ms-Dropdown span {
+  font-family: Poppins;
+  font-weight: 500;
+  font-size: 27pt;
+  color: #8d9092;
+}
+
+.ms-Dropdown-title {
+  border: none !important;
+  margin: 0px 23px;
+}
+/* Fabric Type Dropdown */
+
+/* Quantity Input */
+.quantity-input input {
+  font-family: Poppins;
+  font-weight: 500;
+  font-size: 27pt;
+  color: #8d9092 !important;
+}
+
+.quantity-input i {
+  font-size: 25px;
+  position: initial;
+}
+
+.quantity-input .ms-TextField-fieldGroup {
+  width: 300px;
+  color: #8d9092 !important;
+  height: 60px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  align-items: center;
+  padding: 17px;
+  border: 1px solid #2514db !important;
+  border-radius: 50px;
+}
+
+.ms-TextField-fieldGroup::after {
+  border: none !important;
+}
+/* Quantity Input */
+
+.shipping-time-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.shipping-time-description {
+  font-family: Poppins;
+  font-weight: 300;
+  font-size: 27pt;
+}
+
+.shipping-time {
+  font-family: Poppins;
+  font-weight: 600;
+  font-size: 29pt;
+  padding-left: 12px;
+}
